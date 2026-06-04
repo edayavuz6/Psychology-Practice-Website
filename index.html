@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Eleanor Hayes | Psychology Practice</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#home" class="nav-logo">Dr. Eleanor Hayes</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Book a Session</a>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <span class="mobile-close" onclick="toggleMenu()">✕</span>
+      <a href="#about" onclick="toggleMenu()">About</a>
+      <a href="#services" onclick="toggleMenu()">Services</a>
+      <a href="#process" onclick="toggleMenu()">How It Works</a>
+      <a href="#testimonials" onclick="toggleMenu()">Testimonials</a>
+      <a href="#contact" onclick="toggleMenu()">Contact</a>
+      <a href="#contact" class="btn-primary" onclick="toggleMenu()"
+        >Book a Session</a
+      >
+    </div>
+
+    <section id="home">
+      <div class="hero-left">
+        <p class="hero-tag">Clinical Psychologist · London</p>
+        <h1 class="hero-title">
+          Healing,<br /><em>growth</em><br />and peace.
+        </h1>
+        <p class="hero-desc">
+          I'm here to help you navigate life's challenges, strengthen your
+          emotional wellbeing, and discover a deeper understanding of yourself
+          in a safe, compassionate space.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Free Consultation</a>
+          <a href="#services" class="btn-outline">Explore Services</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-image-wrap">
+          <img
+            src="img/two.png"
+            alt="Dr. Eleanor Hayes, Clinical Psychologist"
+          />
+        </div>
+
+        <div class="hero-quote">
+          <blockquote>
+            "Knowing yourself is the beginning of all wisdom."
+          </blockquote>
+          <cite>— Aristotle</cite>
+        </div>
+
+        <div class="hero-badge">
+          <strong>12+</strong>
+          <span>Years<br />Experience</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="stats-strip reveal">
+      <div class="stat">
+        <div class="stat-num">600+</div>
+        <div class="stat-label">Clients Supported</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">12+</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">6</div>
+        <div class="stat-label">Specialisms</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">97%</div>
+        <div class="stat-label">Client Satisfaction</div>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="about-visual reveal">
+        <div class="about-card">
+          <div class="about-card-header">
+            <img src="img/one.png" alt="Therapy office" />
+          </div>
+          <div class="about-card-body">
+            <div class="about-name">Dr. Eleanor Hayes</div>
+            <div class="about-role">
+              Clinical Psychologist · Psychotherapist
+            </div>
+            <ul class="credential-list">
+              <li>DClinPsy, University College London</li>
+              <li>Cognitive Behavioural Therapy (CBT) Accredited</li>
+              <li>EMDR Practitioner (Level II)</li>
+              <li>Member of the British Psychological Society</li>
+              <li>HCPC Registered Practitioner Psychologist</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-float">
+          <div class="about-float-num">600+</div>
+          <div class="about-float-text">Successful Sessions</div>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <p class="section-tag">About Me</p>
+        <h2 class="section-title">I'm here to be<br /><em>beside you.</em></h2>
+        <p class="about-text">
+          With over twelve years of clinical experience, I believe every
+          individual carries their own unique story. I provide a safe,
+          non-judgemental space where you can explore your inner world and
+          rediscover your strengths.
+        </p>
+        <p class="about-text">
+          I specialise in anxiety disorders, depression, trauma, and
+          relationship difficulties, drawing on evidence-based approaches
+          tailored specifically to each person I work with.
+        </p>
+        <ul class="value-list">
+          <li class="value-item">
+            <div class="value-icon">🌿</div>
+            <div class="value-text">
+              <strong>Integrative Approach</strong>
+              <span
+                >I address cognitive, emotional, and somatic dimensions
+                together.</span
+              >
+            </div>
+          </li>
+          <li class="value-item">
+            <div class="value-icon">🔒</div>
+            <div class="value-text">
+              <strong>Confidentiality & Trust</strong>
+              <span
+                >All sessions are conducted with the strictest
+                confidentiality.</span
+              >
+            </div>
+          </li>
+          <li class="value-item">
+            <div class="value-icon">🌱</div>
+            <div class="value-text">
+              <strong>Personalised Care</strong>
+              <span
+                >Every therapy plan is tailored to your individual needs and
+                goals.</span
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services-header reveal">
+        <div>
+          <p class="section-tag">Services</p>
+          <h2 class="section-title">How can I<br /><em>help you?</em></h2>
+        </div>
+        <p class="section-sub">
+          Evidence-based, personalised psychological support services for every
+          stage of your journey.
+        </p>
+      </div>
+
+      <div class="services-grid reveal">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <div class="service-icon">🧠</div>
+          <h3 class="service-title">Individual Therapy</h3>
+          <p class="service-desc">
+            One-to-one sessions addressing anxiety, depression, self-esteem, and
+            personal growth. I help you understand yourself more deeply and make
+            meaningful changes in your life.
+          </p>
+          <a href="#contact" class="service-link">Book Now →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <div class="service-icon">💑</div>
+          <h3 class="service-title">Couples Therapy</h3>
+          <p class="service-desc">
+            Specialist support for communication difficulties, trust issues, and
+            relationship dynamics. Together, we work towards a healthier, more
+            connected partnership.
+          </p>
+          <a href="#contact" class="service-link">Book Now →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <div class="service-icon">🌊</div>
+          <h3 class="service-title">Trauma Therapy</h3>
+          <p class="service-desc">
+            Using EMDR and cognitive-behavioural methods to help you process and
+            heal from past trauma. Reclaim your sense of safety, strength, and
+            freedom.
+          </p>
+          <a href="#contact" class="service-link">Book Now →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <div class="service-icon">👨‍👩‍👧</div>
+          <h3 class="service-title">Family Counselling</h3>
+          <p class="service-desc">
+            Professional support to resolve family conflict, improve
+            parent-child relationships, and strengthen the bonds that matter
+            most to you.
+          </p>
+          <a href="#contact" class="service-link">Book Now →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <div class="service-icon">💻</div>
+          <h3 class="service-title">Online Therapy</h3>
+          <p class="service-desc">
+            Secure, flexible therapy wherever you are. Video sessions deliver
+            the same warmth and effectiveness as in-person appointments — from
+            the comfort of your home.
+          </p>
+          <a href="#contact" class="service-link">Book Now →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <div class="service-icon">🎯</div>
+          <h3 class="service-title">Psychological Assessment</h3>
+          <p class="service-desc">
+            Comprehensive psychological testing and evaluation to gain a clear
+            picture of your strengths, challenges, and pathways forward.
+          </p>
+          <a href="#contact" class="service-link">Book Now →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="reveal">
+        <p class="section-tag" style="color: var(--clay-light)">The Process</p>
+        <h2 class="section-title">How does it work?</h2>
+        <p class="section-sub">
+          A clear, transparent process so you always know what to expect. No
+          surprises — just steady, supportive progress.
+        </p>
+      </div>
+
+      <div class="process-steps reveal">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h3 class="step-title">Free Consultation</h3>
+          <p class="step-desc">
+            A complimentary 20-minute introductory call to discuss your needs,
+            answer your questions, and see if we're the right fit.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h3 class="step-title">Assessment</h3>
+          <p class="step-desc">
+            In our early sessions I carry out a thorough assessment and
+            co-create a personalised therapy plan with you.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h3 class="step-title">Therapy</h3>
+          <p class="step-desc">
+            Weekly sessions working towards your agreed goals, using
+            evidence-based techniques suited to your needs.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <h3 class="step-title">Progress & Closure</h3>
+          <p class="step-desc">
+            We regularly review your progress together and shape the journey as
+            you grow — finishing when you feel ready.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="reveal">
+        <p class="section-tag">Testimonials</p>
+        <h2 class="section-title">What my clients<br /><em>are saying.</em></h2>
+      </div>
+
+      <div class="testimonials-grid reveal">
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            Working with Dr. Hayes genuinely changed my life. I learned how to
+            manage my anxiety and rebuilt a confidence I didn't think I'd ever
+            have again. She is exceptionally warm and professional.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SW</div>
+            <div>
+              <div class="author-name">S. Williams</div>
+              <div class="author-detail">Individual Therapy Client</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            My partner and I started couples therapy at a real breaking point.
+            Dr. Hayes helped us communicate properly for the first time in
+            years. We came out of it closer than ever before.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JM</div>
+            <div>
+              <div class="author-name">J. Morrison</div>
+              <div class="author-detail">Couples Therapy Client</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">
+            I was sceptical about online therapy at first, but Dr. Hayes made it
+            feel just as personal and effective as being in the room. Every
+            session was genuinely valuable — I cannot recommend her highly
+            enough.
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RC</div>
+            <div>
+              <div class="author-name">R. Clarke</div>
+              <div class="author-detail">Online Therapy Client</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-info reveal">
+        <p class="section-tag">Contact</p>
+        <h2 class="section-title">Take the first<br /><em>step.</em></h2>
+        <p class="section-sub" style="margin-bottom: 48px">
+          Reaching out can feel daunting — but it is the most important step you
+          can take. Get in touch today.
+        </p>
+
+        <div class="contact-detail">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-label">Address</div>
+            <div class="contact-value">
+              14 Harley Street, Marylebone<br />London, W1G 9PH
+            </div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">📞</div>
+          <div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+44 20 7946 0321</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">hello@dreleanorhayes.co.uk</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <div class="contact-label">Consulting Hours</div>
+            <div class="contact-value">
+              Mon–Fri: 9:00 am – 6:00 pm<br />Saturday: 10:00 am – 2:00 pm
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal">
+        <h3 class="form-title">Book an Appointment</h3>
+        <p class="form-sub">
+          Fill in the form below and I'll be in touch as soon as possible.
+        </p>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" placeholder="Your first name" />
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Your last name" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="you@example.co.uk" />
+        </div>
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="tel" placeholder="+44 7xxx xxxxxx" />
+        </div>
+        <div class="form-group">
+          <label>Service</label>
+          <select>
+            <option value="">Please select…</option>
+            <option>Individual Therapy</option>
+            <option>Couples Therapy</option>
+            <option>Trauma Therapy</option>
+            <option>Family Counselling</option>
+            <option>Online Therapy</option>
+            <option>Psychological Assessment</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea
+            placeholder="Tell me a little about yourself and what you're looking for…"
+          ></textarea>
+        </div>
+        <button class="form-submit" onclick="submitForm()">
+          Send Appointment Request
+        </button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <div>
+          <span class="footer-logo">Dr. Eleanor Hayes</span>
+          <p class="footer-tagline">
+            Supporting your psychological wellbeing and helping you build a
+            stronger, more fulfilling life.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Individual Therapy</a></li>
+            <li><a href="#services">Couples Therapy</a></li>
+            <li><a href="#services">Trauma Therapy</a></li>
+            <li><a href="#services">Online Therapy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><a href="#">+44 20 7946 0321</a></li>
+            <li><a href="#">hello@dreleanorhayes.co.uk</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Dr. Eleanor Hayes. All rights reserved.</span>
+        <span>Privacy Policy · GDPR</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
