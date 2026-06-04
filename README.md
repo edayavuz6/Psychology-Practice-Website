@@ -21,13 +21,7 @@ Hero · About · Services · How It Works · Testimonials · Contact · Footer
 - Appointment request form with submit feedback
 - Zero dependencies — just open `index.html`
 
-## Getting Started
 
-```bash
-git clone https://github.com/your-username/psychology-practice-website.git
-cd psychology-practice-website
-open index.html
-```
 
 ## File Structure
 
